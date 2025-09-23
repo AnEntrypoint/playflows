@@ -1,0 +1,35 @@
+{
+  "name": "playflows",
+  "version": "1.0.0",
+  "description": "A powerful workflow engine for automating browser interactions with MCP Playwright tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "login": "node index.js login",
+    "process": "node index.js process"
+  },
+  "keywords": [
+    "automation",
+    "workflow",
+    "playwright",
+    "browser",
+    "mcp",
+    "cli",
+    "grok",
+    "imagine"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "bin": {
+    "playflows": "index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
